@@ -1,0 +1,20 @@
+{
+    "name": "Envato Integration ",
+    "alias": "envatointegration",
+    "description": "Store additional data on conversations in envato!",
+    "version": "1.1",
+    "detailsUrl": "#",
+    "author": "FreeScout",
+    "authorUrl": "#",
+    "requiredAppVersion": "1.4.3",
+    "providers": [
+        "Modules\\EnvatoIntegration\\Providers\\EnvatoCustomFieldsServiceProvider"
+    ],
+    "aliases": {
+        "EnvatoCustomField": "Modules\\EnvatoIntegration\\Entities\\EnvatoCustomField"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

@@ -1,0 +1,18 @@
+{
+    "name": "SidebarApi",
+    "alias": "sidebarapi",
+    "description": "Customer Sidebar Api allow your customers to orders your SidebarApi.",
+    "version": "1.2",
+    "detailsUrl": "#",
+    "author": "SidebarApi",
+    "providers": [
+        "Modules\\SidebarApi\\Providers\\SidebarApiServiceProvider"
+    ], 
+    "aliases": {
+        "SidebarApi": "Modules\\SidebarApi\\Entities\\SidebarApi"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

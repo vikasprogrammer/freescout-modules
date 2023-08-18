@@ -1,0 +1,1 @@
+<li @if (Route::is('mailboxes.badratingalert') || Route::is('mailboxes.badratingalert'))class="active"@endif><a href="{{ route('mailboxes.badratingalert', ['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-registration-mark"></i> {{ __('Bad Rating Alert') }}</a></li>

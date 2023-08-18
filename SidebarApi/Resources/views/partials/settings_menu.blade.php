@@ -1,0 +1,1 @@
+<li @if (Route::is('mailboxes.sidebarapi_settings_trans') || Route::is('mailboxes.sidebarapi_settings'))class="active"@endif><a href="{{ route('mailboxes.sidebarapi_settings', ['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-shopping-cart"></i> {{ __('SidebarApi') }}</a></li>

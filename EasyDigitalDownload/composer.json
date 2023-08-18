@@ -1,0 +1,25 @@
+{
+    "name": "freescout/easydigitaldownload",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EasyDigitalDownload\\Providers\\EasyDigitalDownloadServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EasyDigitalDownload\\": ""
+        }
+    }
+}

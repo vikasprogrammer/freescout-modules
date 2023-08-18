@@ -1,0 +1,17 @@
+{
+    "name": "Auto Signature",
+    "alias": "autosignature",
+    "description": "Auto Signature (also called 'canned responses') are used to quickly answer common questions. Save time with Auto Signature!",
+    "version": "2.7",
+    "detailsUrl": "https://freescout.net/module/saved-replies/",
+    "author": "FreeScout",
+    "providers": [
+        "Modules\\AutoSignature\\Providers\\AutoSignatureServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
+

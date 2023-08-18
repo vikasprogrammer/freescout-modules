@@ -1,0 +1,25 @@
+{
+    "name": "freescout/autosignature",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AutoSignature\\Providers\\AutoSignatureServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AutoSignature\\": ""
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "freescout/dailyupdates",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\DailyUpdates\\Providers\\DailyUpdatesServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DailyUpdates\\": ""
+        }
+    }
+}

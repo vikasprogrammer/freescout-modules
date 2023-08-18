@@ -1,0 +1,34 @@
+.dropdown-saved-replies {
+    max-width: 320px;
+    max-height: 415px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#saved-replies-index .handle {
+    cursor: move;
+    position: absolute;
+    left: 19px;
+    padding: 6px 10px;
+    color: #a5b2bd;
+}
+
+#saved-replies-index .handle .glyphicon {
+    font-size: 9px;
+    top: -1px;
+}
+#saved-replies-index > .panel > .panel-heading {
+    margin-left: 35px;
+}
+#saved-replies-index > .panel {
+    background-color: #fff;
+}
+.sortable-placeholder {
+    border: 1px dashed #c1cbd4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 41px;
+}
+#editor_signature{
+    color:#808080 !important;
+}

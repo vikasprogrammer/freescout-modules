@@ -1,0 +1,1 @@
+<li @if (Route::is('mailboxes.whitelabel') || Route::is('mailboxes.whitelabel'))class="active"@endif><a href="{{ route('mailboxes.whitelabel',['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-pencil"></i> {{ __('White Label') }}</a></li>

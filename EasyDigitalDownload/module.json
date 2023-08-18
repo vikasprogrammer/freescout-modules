@@ -1,0 +1,19 @@
+{
+    "name": "Easy Digital Download",
+    "alias": "easydigitaldownload",
+    "description": "Customer product orders allow your customers to orders your replies.",
+    "version": "1.3",
+    "detailsUrl": "#",
+    "author": "Expresstech",
+    "authorUrl": "https://expresstech.io",
+    "providers": [
+        "Modules\\EasyDigitalDownload\\Providers\\EasyDigitalDownloadServiceProvider"
+    ],
+    "aliases": {
+        "EasyDigitalDownloadHelper": "Modules\\EasyDigitalDownload\\Providers\\EasyDigitalDownloadServiceProvider"
+    },
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

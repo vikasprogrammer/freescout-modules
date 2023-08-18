@@ -1,0 +1,25 @@
+{
+    "name": "freescout/badratingalert",
+    "description": "",
+    "authors": [
+        {
+            "name": "FreeScout",
+            "email": "support@freescout.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\BadRatingAlert\\Providers\\BadRatingAlertServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\BadRatingAlert\\": ""
+        }
+    }
+}

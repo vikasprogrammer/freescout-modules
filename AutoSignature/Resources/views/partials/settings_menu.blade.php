@@ -1,0 +1,1 @@
+<li @if (Route::currentRouteName() == 'mailboxes.auto_signature')class="active"@endif><a href="{{ route('mailboxes.auto_signature', ['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-pencil"></i> {{ __('Auto Signature') }}</a></li>

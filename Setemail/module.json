@@ -1,0 +1,16 @@
+{
+    "name": "Setemail",
+    "alias": "setemail",
+    "description": "",
+    "version": "1.3",
+    "detailsUrl": "",
+    "author": "",
+    "providers": [
+        "Modules\\Setemail\\Providers\\SetemailServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

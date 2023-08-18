@@ -1,0 +1,15 @@
+{
+    "name": "PowerPack",
+    "alias": "powerpack",
+    "description": "Supercharge your Freescout with custom styling, custom fields for EUP & KB modules and more",
+    "version": "3.7",
+    "detailsUrl": "",
+    "providers": [
+        "Modules\\PowerPack\\Providers\\PowerPackServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

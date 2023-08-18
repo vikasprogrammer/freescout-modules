@@ -1,0 +1,2 @@
+<li @if (Route::is('mailboxes.dailyupdates') || Route::is('mailboxes.dailyupdates'))class="active"@endif><a href="{{ route('mailboxes.dailyupdates') }}">{{ __('Daily Updates') }}</a></li>
+<li @if (Route::is('mailboxes.busy.ticket.notification') || Route::is('mailboxes.busy.ticket.notification'))class="active"@endif><a href="{{ route('mailboxes.busy.ticket.notification') }}">{{ __('Busy Ticket') }}</a></li>

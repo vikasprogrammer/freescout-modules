@@ -1,0 +1,1 @@
+<li @if (Route::is('mailboxes.powerpack') || Route::is('mailboxes.powerpack'))class="active"@endif><a href="{{ route('mailboxes.powerpack', ['id'=>$mailbox->id]) }}"><i class="glyphicon glyphicon-list-alt"></i> {{ __('Power Pack') }}</a></li>

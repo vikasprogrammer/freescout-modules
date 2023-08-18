@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/envatointegration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EnvatoIntegration\\Providers\\EnvatoCustomFieldsServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EnvatoIntegration\\": ""
+        }
+    }
+}
